@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Desafio JS</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="https://i.ibb.co/gvtqDXb/laptop.png" alt="laptop">
+            <p>Laptop DELL X10</p>
+
+            <p>Precio:</p>
+            <div class="espacio">
+                <p>$</p>
+                <p id="precio"> 5000</p>
+            </div>
+
+            <input placeholder="Ingrese una cantidad" id="cantidad" />
+            <select id="color" onchange="changeColor(this)">
+                <option value="red">Rojo</option>
+                <option value="green">Verde</option>
+                <option value="yellow">Amarillo</option>
+            </select>
+            <button id="boton"> Comprar
+            </button>
+        </div>
+        <div class="card">
+            <h4>Resumen de compra</h4>
+            <div class="espacio">
+                <h4>Color: </h4><div id="mostrar-color"></div>
+            </div>
+            <div class="espacio">
+                <h4>Cantidad: <h4 id="mostrar-cantidad"></h4></h4>
+            </div>
+            <div class="espacio">
+                <h4>Total: $<h4 id="precio-total"></h4></h4>
+            </div>
+            
+
+        </div>
+
+
+
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

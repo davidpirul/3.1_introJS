@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #62B7D9;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #144659;
+    width: 17vw;
+    border-style: solid;
+    border-radius: 4%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #23798C;
+    font-weight: bold;
+    margin: 8px;
+
+}
+
+.card h4 {
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+
+.card p {
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+
+.card img {
+    width: 75%;
+}
+
+input {
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.espacio {
+    display: flex;
+    flex-direction: row;
+    color: #23798C;
+    justify-items: center;
+    align-items: center;
+
+}
+
+Colores-a-usar {
+    color: #081826;
+    color: #144659;
+    color: #62B7D9;
+    color: #23798C;
+    color: #59C1D9;
+}
+
+
+button {
+    background-color: #23798C;
+    border-radius: 24px;
+    border-style: none;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: .25px;
+    line-height: normal;
+    padding: 11px 24px;
+    transition: background box-shadow 280ms ease;
+}
+
+button:hover {
+    background: #F6F9FE;
+    color: #23798C;
+}
+
+button:active {
+    box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+    outline: none;
+    border: 2px solid #4285f4;
+}
+
+#mostrar-color {
+    width: 2vw;
+    height: 2vh;
+    border-radius: 50%;
+    border-style: solid;
+}
